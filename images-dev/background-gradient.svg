@@ -44,7 +44,7 @@
          id="stop1751" />
       <stop
          style="stop-color:#222222;stop-opacity:1"
-         offset="0.10216586"
+         offset="0.31749567"
          id="stop1526" />
       <stop
          style="stop-color:#222222;stop-opacity:0"
@@ -79,8 +79,8 @@
        gradientUnits="userSpaceOnUse"
        x1="28.634199"
        y1="256.78333"
-       x2="28.742167"
-       y2="176.82108" />
+       x2="29.620872"
+       y2="156.61084" />
   </defs>
   <g
      inkscape:label="Image"
