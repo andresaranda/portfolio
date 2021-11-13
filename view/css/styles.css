@@ -200,11 +200,13 @@ section {
     text-align: justify;
 }
 .grid-1 {
+    position: relative;
     padding: 0px 100px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: center;
+    overflow: hidden;
 }
 .grid-2 {
     /* position: relative; */
@@ -261,6 +263,19 @@ nav a i {
 }
 nav a .slide-out-to-right {
     font-size: 1.3em;
+}
+.cloud {
+    position: absolute;
+    left: 100vw;
+    top: 0%;
+    height: 0%;
+    width: auto;
+    opacity: 0.15;
+    transition: left linear;
+    pointer-events: none;
+}
+.cloud-move {
+    left: -150vw;
 }
 .btn-shine {
     text-shadow: none;
