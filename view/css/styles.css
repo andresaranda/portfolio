@@ -330,12 +330,12 @@ nav a .slide-out-to-right {
     column-gap: 7%;
     margin: 0px 3%;
 }
-.video {
+.video-container {
     border-radius: 10px;
     overflow: hidden;
     margin: 25px 0px;
 }
-.video img {
+.video-container img, .video-container video {
     vertical-align: middle;
     width: 100%;
     height: auto;
@@ -477,7 +477,7 @@ nav a .slide-out-to-right {
         grid-template-columns: 1fr;
         row-gap: 50px;
     }
-    .video {
+    .video-container {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
@@ -601,7 +601,7 @@ nav a .slide-out-to-right {
         padding-top: 40px;
         color: var(--primary-color);
     }
-    .video {
+    .video-container {
         width: 100%;
     }
     #cat-img {
