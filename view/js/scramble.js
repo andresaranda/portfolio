@@ -1,6 +1,7 @@
 
 // gem game
-// liquid button
+// proyect section with sea island theme, ripple effect background (except on islands), liquid buttons, animated icons on hover
+// javascript off compatible
 // videos
 
 const skills_container = document.querySelector('#scramble')
